@@ -1,0 +1,58 @@
+{
+  "name": "edenfaces",
+  "version": "1.0.0",
+  "description": "node react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js",
+    "watch": "nodemon --exec babel-node -- server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjjia/edenfaces.git"
+  },
+  "author": "jj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjjia/edenfaces/issues"
+  },
+  "homepage": "https://github.com/hjjia/edenfaces#readme",
+  "dependencies": {
+    "alt": "^0.17.9",
+    "async": "^1.5.2",
+    "babel": "^5.8.38",
+    "body-parser": "^1.17.1",
+    "colors": "^1.1.2",
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.4",
+    "morgan": "^1.8.1",
+    "react": "^0.13.3",
+    "react-router": "^0.13.6",
+    "request": "^2.81.0",
+    "serve-favicon": "^2.4.2",
+    "socket.io": "^1.7.3",
+    "swig": "^1.4.2",
+    "swing": "^4.2.0",
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "bower": "^1.8.0",
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-if": "^1.2.5",
+    "gulp-less": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.8",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  }
+}
